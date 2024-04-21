@@ -40,7 +40,7 @@
   
   function loginModFunc(e){
       if(e.key == 38){
-        ModAPI.player.sendChatMessage({message:"/login "+pass})
+        ModAPI.player.sendChatMessage({message:"/login "+biggamer87})
       }
     };
     ModAPI.addEventListener("key",loginModFunc);
